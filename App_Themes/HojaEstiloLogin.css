@@ -1,0 +1,2726 @@
+﻿/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/**
+/**SECCION CLASES PARA EL INICIO DE SESION DE LA APLICACION
+/**
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+        
+      .EstiloDivExterno
+        {
+            /*background-color: #D8ECE2;#B1EDD4;#38BA98;*/
+            /*background-color: #6E6E6E;#428BCA*/
+            background-color: #428BCA;
+            overflow:hidden;
+            text-align:center;
+            margin:auto;
+            /*width: 1250px;
+            height:850px;*/
+
+            width:auto;
+            height:auto;
+			
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+        }
+
+      .EstiloDivContenedorGeneral
+        {
+            background-color: #ffffff;
+            width: 1170px;
+            height:700px;
+            display:inline-table;
+            padding:15px;
+            margin:20px;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            border-radius: 25px;
+            border:4px solid #C9CCD1;
+        }
+        
+ 
+
+    .EstiloDivContenedorCabeceraMenu
+        {
+            background-color: #FFFFFF;
+
+			text-align:center;
+
+            width: 1100px;
+            height:720px;
+            display:inline-table;
+            padding:10px;
+            margin:10px;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            border-radius: 25px;
+        }
+
+
+        
+    .CapaBotones
+        {
+            /*background-color: #D8ECE2;*/
+            background-color: #ECC1DF;
+            width: 1100px;
+            height:550px;
+            display:inline-table;
+            padding:15px;
+            top:125px;
+            left:120px;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            border-radius: 25px;
+            z-index:2;
+            position: absolute;
+            visibility:visible;
+        }
+        
+        
+        
+        
+        .EstiloDivTitulo
+        {
+            background-color: #37B1DA;
+            text-align:center;
+            width: 800px;
+            height:40px;
+            display:inline-table;
+            padding-top: 7px;
+            padding-right: 7px;
+            padding-bottom: 7px;
+            padding-left: 7px;  
+            font-size:1.5em;
+            color:#FFFFFF;
+            font-family:'Helvetica','Verdana','Monaco',sans-serif;
+			/*position:absolute;*/
+			left:260px;
+			top:60px;
+
+            border:3px solid #C9CCD1;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            border-radius: 25px;
+            opacity: 0.7;
+            filter: alpha(opacity=60); /* For IE8 and earlier */
+        }
+
+ 
+ 
+        .LabelInicioSesionUser
+        {
+          background-color: #37B1DA;
+          text-align:center;
+          padding:10px;
+          top:190px;
+          left:490px;
+          width:350px;  
+          height:15px;
+          font-size:1.5em;
+          color:#FFFFFF;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+
+          position: absolute;
+          visibility:visible;
+          z-index:3;
+          
+          display:inline-table;
+          border:5px solid #C9CCD1;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+          opacity: 0.8;
+          filter: alpha(opacity=60); /* For IE8 and earlier */
+        }
+        
+        .TextInicioSesionUser
+        {
+          text-align:center;
+          padding:10px;
+          top:260px;
+          left:490px;
+          color:#9D2F88;
+          width:350px;  
+            
+          position: absolute;
+          visibility:visible;
+          z-index:3;
+          
+          background-color: #C9CCD1;
+          display:inline-table;
+          border:3px solid #37B1DA;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+          opacity: 0.9;
+          filter: alpha(opacity=60); /* For IE8 and earlier */
+
+        }
+        
+        
+        .Input_Text
+        {
+          font-style:italic;
+          font-weight:bold;
+          font-size:2em;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          color:#000000;
+          border-color:#BCBCBC;
+          width: 288px;
+        }
+
+
+        .ImagenUser
+        {
+            top:380px;
+            left:845px;
+
+            background-color: #282226;
+            width: 150px;
+            height:115px;
+            display:inline-table;
+            padding:53px;
+            margin:5px;
+            float:left;
+
+            background: url(../CapaVista/Imagenes/UserBlanco.jpg);
+            background-repeat:no-repeat;
+
+            border:5px solid #428BCA;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            border-radius: 25px;
+            
+
+            position: absolute;
+            visibility:visible;
+            z-index:3;
+        }
+
+
+        
+        .LabelInicioSesionClave
+        {
+          background-color: #37B1DA;
+          text-align:center;
+          padding:10px;
+          top:370px;
+          left:490px;
+          
+          width:350px;  
+          height:15px;
+          font-size:1.5em;
+          color:#FFFFFF;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          
+          position: absolute;
+          visibility:visible;
+          z-index:3;
+          
+          display:inline-table;
+          border:5px solid #C9CCD1;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+          opacity: 0.8;
+          filter: alpha(opacity=60); /* For IE8 and earlier */
+
+        }
+        
+        
+        .TextInicioSesionClave
+        {
+          text-align:center;
+          padding:10px;
+          top:440px;
+          left:490px;
+          color:#9D2F88;;
+          width:350px;  
+            
+          position: absolute;
+          visibility:visible;
+          z-index:3;
+          
+          background-color: #C9CCD1;
+          display:inline-table;
+          border:3px solid #37B1DA;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+          opacity: 0.9;
+          filter: alpha(opacity=60); /* For IE8 and earlier */
+        }
+        
+        
+
+        .ImagenClave
+        {
+            top:347px;
+            left:720px;
+
+            background-color: #282226;
+            width: 70px;
+            height:58px;
+            display:inline-table;
+            padding:10px;
+            margin:5px;
+            float:left;
+            background: url(../CapaVista/Imagenes/LlaveClaveTRANSAPARENTE.png);
+            background-repeat:no-repeat;
+			
+	        border:5px solid #C9CCD1;
+
+            position: absolute;
+            visibility:visible;
+            z-index:3;
+        }
+
+  
+        
+        .BotonIngresar
+        { 
+            background:-moz-linear-gradient(#73C8E5 0%,#73C8E5 100%);
+            background:-ms-linear-gradient(#73C8E5 0%,#73C8E5 100%); 
+            background:-o-linear-gradient(#73C8E5 0%,#73C8E5 100%); 
+            background:-webkit-linear-gradient(#73C8E5 0%,#73C8E5 100%);
+            background:linear-gradient(#73C8E5 0%,#73C8E5 100%);
+            border-radius:25px;
+            border:4px solid #ffffff;
+            text-align:center;
+            padding:10px;
+            top:635px;
+            left:555px;
+            color:#ffffff;
+            width:235px;
+            font-style:italic;
+            font-weight:bold;
+            font-size:2em;
+            font-family:'Helvetica','Verdana','Monaco',sans-serif;
+
+            position: absolute;
+            visibility:visible;
+            z-index:3;
+         } 
+
+
+         .BotonIngresar:hover
+         {
+            background:-moz-linear-gradient(#fff 0%,#fff 100%);
+            background:-ms-linear-gradient(#fff 0%,#fff 100%);
+            background:-o-linear-gradient(#fff 0%,#fff 100%);
+            background:-webkit-linear-gradient(#fff 0%,#fff 100%);
+            background:linear-gradient(#fff 0%,#fff 100%);
+            color:#73C8E5; 
+            background-color:#73C8E5;
+            padding:13px;
+            top:630px;
+            left:550px;
+            width:250px; 
+            font-size:25px;
+            box-shadow:0 0 15px #73C8E5; 
+            border-radius:25px;
+
+            position: absolute;
+            visibility:visible;
+            z-index:3;
+        }
+		
+
+		
+		.Boton_Input_Ingresar
+		{
+			font-style:italic;
+            font-weight:bold;
+            font-size:0.8em;
+			size:70px;
+			left:575px;
+            color:#D9AED2;
+            font-family:'Helvetica','Verdana','Monaco',sans-serif;
+
+        	color:white;
+	        background:#73C8E5;
+    	    border:0px;
+        	width:180px;
+	        height:40px;
+		}
+		
+		
+		.EstiloDiv_ERROR
+		{
+            background-color: #ffffff;
+            text-align:center;
+			top:735px;
+			left:360px;
+            width: 600px;
+            height:50px;
+			padding:20px;
+            display:inline-table;
+            position: absolute;
+
+            padding-top: 7px;
+            padding-right: 7px;
+            padding-bottom: 7px;
+            padding-left: 7px;  
+            
+            font-style:italic;
+            font-weight:bold;
+            font-size:2em;
+            color:#428BCA;
+            font-family:'Helvetica','Verdana','Monaco',sans-serif;
+
+            border:2px solid #D9AED2;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            border-radius: 15px;
+		}
+
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/**
+/**SECCION CLASES PARA EL MENU PRINCIPAL DE LA APLICACION
+/**
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+
+/***************************************************/
+    .EstiloDivExternoMenu
+        {   /*#B1EDD4;*/
+            /*background-color: #0C8B4B;*/
+            background-color: #428BCA;
+            overflow:hidden;
+            text-align:center;
+            margin:auto;
+            /*width: 1350px;
+            height:1400px;*/
+            width: 1400px;
+            height:1400px;
+			/*left:auto;*/
+			
+            /*width:auto;
+            height:auto;*/
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+        }
+
+    .EstiloDivContenedorGeneralMenu
+        {
+            background-color: #FFFFFF;
+            width: 1250px;
+            height:1300px;
+            display:inline-table;
+            padding:15px;
+            margin:20px;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            border-radius: 25px;
+        }
+        
+ 
+
+	 .EstiloDivContenedorCabeceraMenu2
+        {
+            width: 1200px;
+            height:200px;
+            display:inline-table;
+            padding:10px;
+            margin:10px;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            border-radius: 25px;
+            box-shadow: 10px 10px 16px #2F292C;
+            
+            background: url(../CapaVista/Imagenes/Foto_chicos_Cuidate_e5.jpg);
+			background-repeat:no-repeat;
+            opacity: 0.7;
+            filter: alpha(opacity=60); /* For IE8 and earlier */
+        }
+
+
+
+	  .EstiloDivLogoMenu
+        {
+            background-color: #282226;
+            background: url(../CapaVista/Imagenes/LOGO_TERRITORIAL_small_e.png);
+            background-repeat:no-repeat;
+            
+            width: 210px;
+            height:142px;
+            display:inline-table;
+            padding:80px;
+            margin:10px;
+            float:left;
+            border:3px solid #428BCA;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            border-radius: 25px;
+            opacity: 0.7;
+            filter: alpha(opacity=60); /* For IE8 and earlier */
+        } 
+         
+        
+ 	.EstiloDivTituloMenu
+        {
+            background-color: #FFFFFF;
+            color:#428BCA;
+            font-style:italic;
+            font-weight:bold;
+            font-size:1.5em;
+            font-family:'Helvetica','Verdana','Monaco',sans-serif;
+            
+            width: 920px;
+            height:20px;
+            display:inline-table;
+            padding:10px;
+            margin:10px;
+            float:left;
+            border:3px solid #428BCA;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            border-radius: 25px;
+            opacity: 0.8;
+            filter: alpha(opacity=60); /* For IE8 and earlier */
+        }        
+                                                                                         
+        
+        
+  .EstiloDivIconosMenu
+        {
+            background-color: #FFFFFF;
+            width: 1150px;
+            height:78px;
+            display:inline-table;
+            padding:10px;
+            margin:10px;
+            float:left;
+            border:3px solid #428BCA;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            border-radius: 25px;
+            opacity: 0.8;
+            filter: alpha(opacity=60); /* For IE8 and earlier */
+        }
+
+        
+  .EstiloDivCargador
+        {
+            background-color: #282226;
+            width: 830px;
+            height:30px;
+            display:inline-table;
+            padding:10px;
+            margin:10px;
+            float:right;
+            border:2px solid #A23391;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            border-radius: 25px;
+            opacity: 0.9;
+            filter: alpha(opacity=60); /* For IE8 and earlier */
+        }
+        
+        
+    .EstiloUpload
+        {
+            text-align:center;
+            overflow:hidden;
+            display:inline-table;
+            padding-left:240px;
+            opacity: 0.9;
+            filter: alpha(opacity=60); /* For IE8 and earlier */
+        }
+        
+        
+  .EstiloDivContenedorCuerpoCentral
+        {
+            /*background-color: #ECBFDE;#B1EDD4*;#D8D6D5;*/
+            background-color: #D8D6D5;
+
+            width: 1100px;
+            height:750px;
+            display:inline-table;
+            padding:350px;
+            margin:10px;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            border-radius: 25px;
+            box-shadow: 11px 11px 16px #2F292C;
+            opacity: 0.6;
+            filter: al pha(opacity=60); /* For IE8 and earlier */
+        }
+        
+        
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/**
+/**SECCION CLASES PARA EL MENU PRINCIPAL ---OPCIONES
+/**
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/     
+
+#navigation { height: 44px; background: url(../CapaVista/Imagenes/navigation.png) repeat; padding: 2px 10px 10px; margin-top: 14px; background-repeat:no-repeat;}
+#navigation ul { font-size: 16px; line-height: 38px; text-transform: capitalize; font-weight:bold;font-family:'Helvetica','Verdana','Monaco',sans-serif;}
+
+#navigation ul li { float:left; display: inline; list-style-type: none; padding-right: 2px; }
+#navigation ul li a { float: left; display: inline; color: #428BCA; text-decoration: none; padding-left: 17px; }
+#navigation ul li a span { float: left; display: inline; padding-right: 17px; background-position: right 0 !important; }
+#navigation ul li a:hover,
+#navigation ul li a.active,
+#navigation ul li a:hover span,
+#navigation ul li a.active span { color: #428BCA; background: url(../CapaVista/Imagenes/nav-active.png) no-repeat 0 0; }
+
+#header { padding-bottom: 10px; }
+
+#slider { height: 327px; background: url(../CapaVista/Imagenes/slider.gif) no-repeat 0 0; position: relative; }
+#slider .slider-nav a { display: block; width: 18px; height: 49px; font-size: 0; line-height: 0; text-indent: -4000px; position: absolute; top: 120px; }
+#slider .slider-nav a.prev { left: 0; background: url(../CapaVista/Imagenes/button-prev.png); }
+#slider .slider-nav a.next { right: 0; background: url(../CapaVista/Imagenes/button-next.png); }
+
+#slider-holder { height: 327px; }
+#slider-holder .jcarousel-clip { height: 327px; width: 874px; position: relative; overflow: hidden; }
+#slider-holder .slide-image { float: right; display: inline; }
+#slider-holder .slide-info { float: left; display: inline; width: 424px; padding-top: 23px; }
+#slider-holder .slide-info p { padding-bottom: 12px; }
+#slider-holder ul { width: 874px; height: 327px; position: relative; overflow: hidden; }
+#slider-holder ul li { list-style-type: none; float: left; display: inline; height: 267px; width: 712px; padding: 56px 108px 4px 54px; position: relative; overflow: hidden; }
+
+#main { border-bottom: solid 1px #A7A9AD; margin-bottom: 6px; height: 600px; background: url(images/footer.png) no-repeat 0 0;}
+
+h2.Texto_Slider { height: 94px; background-image: url(../CapaVista/Imagenes/Logo_Uno_27_2.png); }
+h3.txt-monday-again { background-image: url(../CapaVista/Imagenes/txt-monday-again.gif); }
+h3.txt-wedothis { background-image: url(../CapaVista/Imagenes/txt-wedothis.gif); }
+h3.txt-247 { background-image: url(../CapaVista/Imagenes/txt-247.gif); }
+
+.button-more { display: block; width: 66px; height: 22px; font-size: 0; line-height: 0; text-indent: -4000px; background: url(images/button-more.gif) no-repeat 0 0; }
+.more { padding-left: 10px; background: url(../CapaVista/Imagenes/arr.gif) no-repeat 0 center; }
+
+.cols { padding: 15px 0 10px; }
+.cols .col { float: left; display: inline; }
+.cols .col-last { margin-right: 0 !important; }
+.cols .col h3.notext { height: 45px; margin-bottom: 5px; }
+
+.three-cols .col { width: 264px; margin-right: 41px; }
+.two-cols .col { width: 420px; margin-right: 34px; }
+
+#logoFooter { float: left; display: inline; width: 872px; font-size: 0; line-height: 0; }
+#logoFooter a { display: block; height: 120px; text-indent: -4000px; background: url(../CapaVista/Imagenes/abajo.png); }
+
+/* *************************** * navigation drop down * ****************************** */
+
+#top { position:relative;  }
+#navigation ul li { position: relative;}
+#navigation ul li:hover > a,
+#navigation ul li:hover > a.active,
+#navigation ul li:hover > a span,   
+#navigation ul li:hover > a.active span { color: #B1EDD4; background: url(../CapaVista/Imagenes/nav-active.png) no-repeat 0 0; }
+/*: #B1EDD4; #E7E6E6  #B1EDD4*/
+#navigation ul li ul 
+{ 
+display:block; position:absolute; bottom:40px; left:-41px; background:#428BCA; width:200px;
+border-radius: 20px 15px 15px 15px; -moz-border-radius: 20px 15px 15px 15px; -webkit-border-radius: 20px 15px 15px 15px; -o-border-radius: 20px 15px 15px 15px;
+}
+
+
+/*ESTA AREA MANEJA LAS CARACTERISTICAS DE LA SUB OPCION*/ 
+
+#navigation ul li:hover > ul { display: block; }
+#navigation ul li ul li { float:none; display:block; background: transparent; padding-right:0; }
+#navigation ul li ul li a { display:block; float:none; background:#C1C0C0; z-index:99; color:#428BCA; }
+#navigation ul li ul li a:hover { background: #B1EDD4 url(../CapaVista/Imagenes/dd-hover2.png) repeat-x 0 0; color:#428BCA; }
+#navigation ul li ul li:first-child a { border-radius: 0 5px 0 0; -moz-border-radius: 0 5px 0 0; -webkit-border-radius: 0 5px 0 0; -o-border-radius: 0 5px 0 0; }
+#navigation ul li ul li:last-child a { border-radius: 0 0 5px 5px; -moz-border-radius: 0 0 5px 5px; -webkit-border-radius: 0 0 5px 5px; -o-border-radius: 0 0 5px 5px; }   
+
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/**
+/**SECCION CLASES PARA EL FORMULARIO
+/**
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/ 
+
+    .EstiloDivContenedorCuerpoCentral_Form
+    {
+            /*background-color: #ECBFDE;#B1EDD4*;#D8D6D5;*/
+            background-color: #D8D6D5;
+			
+			position:absolute;
+			left:90px;
+			top:400px;
+			/*top:460px;
+			position:relative;
+			left:-135px;
+			top:350px;
+			/*top:460px;*/
+			
+			/*z-index:1;*/
+
+            width: 1200px;
+            height:900px;
+            display:inline-table;
+            padding:10px;
+            margin:10px;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            border-radius: 25px;
+            /*border:3px solid #9D2F88;*/
+            box-shadow: 11px 11px 16px #2F292C;
+            opacity: 0.6;
+            filter: alpha(opacity=60); /* For IE8 and earlier */
+/*			z-index:1;*/
+    }
+	
+	
+	 .Estilo_Div_Tabla
+        {
+            /*background-color: #A8A9AD;*/
+            color:#428BCA;
+            font-size:1.1em;
+            font-family:'Helvetica','Verdana','Monaco',sans-serif;
+			
+            width: 740px;
+            height: 950px;
+			position:absolute;
+			top:120px;
+	        left:465px;
+            overflow:scroll;
+            overflow-x:auto;
+            overflow-y:auto;
+            vertical-align:super;
+            text-align:center;
+        }
+		
+		
+	.Estilo_Tabla
+        {
+			height:125px;
+            color:#428BCA;
+            font-style:italic;
+            font-size:1.0em;
+            font-family:'Helvetica','Verdana','Monaco',sans-serif;
+            text-align:center;
+			border:3px solid #FFFFFF;
+	        -webkit-border-radius: 25px;
+    	    -moz-border-radius: 25px;
+        	border-radius: 25px;
+
+        }
+
+
+	.Estilo_th_Tit
+	{
+            background-color: #428BCA;
+            color:#ffffff;
+            border:3px solid #ffffff;
+			text-align:center;
+	}
+
+
+	.Estilo_th
+	{
+            /*background-color: #ffffff;*/
+            color:#0000FF;
+            border:3px solid #ffffff;
+			text-align:center;
+	}
+
+
+	.Estilo_th1
+	{
+            background-color: #ffffff;*/
+            font-style:italic;
+            font-weight:bold;
+            font-size:1.0em;
+            font-family:'Helvetica','Verdana','Monaco',sans-serif;
+
+            color:#000000;
+            border:3px solid #9D2F88;
+			text-align:center;
+	}
+	.Estilo_th2
+	{
+            background-color: #ffffff;*/
+            color:#2C6DDE;
+            border:3px solid #9D2F88;
+			text-align:center;
+	}
+	.Estilo_th3
+	{
+            background-color: #ffffff;*/
+            color:#ff00ff 	;
+            border:3px solid #9D2F88;
+			text-align:center;
+	}
+	.Estilo_th4
+	{
+            background-color: #ffffff;*/
+            color:#006400;
+            border:3px solid #9D2F88;
+			text-align:center;
+	}
+	.Estilo_th5
+	{
+            background-color: #ffffff;*/
+            font-style:italic;
+            font-weight:bold;
+            font-size:1.0em;
+            font-family:'Helvetica','Verdana','Monaco',sans-serif;
+
+            color:#FF8C00;
+            border:3px solid #9D2F88;
+			text-align:center;
+	}
+		
+	.Estilo_th5_1
+	{
+            background-color: #ffffff;*/
+            font-style:italic;
+            font-weight:bold;
+            font-size:1.0em;
+            font-family:'Helvetica','Verdana','Monaco',sans-serif;
+
+            color:#dc143c;
+            border:3px solid #9D2F88;
+			text-align:center;
+	}
+
+
+    .LabelTituloFormulario
+    {
+          background-color: #428BCA;
+          text-align:center;
+          padding:5px;
+          top:10px;
+          left:380px;
+          
+          width:450px;  
+          height:15px;
+          font-size:1.2em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          font-weight:bold;
+          
+          position: absolute;
+          visibility:visible;
+          z-index:3;
+          
+          display:inline-table;
+          border:4px solid #FFFFFF;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          border-radius: 10px;
+          /*opacity: 0.9;
+          filter: alpha(opacity=60); /* For IE8 and earlier */
+    }
+
+
+
+
+    .LabelGrupo1
+    {
+          background-color: #37B1DA;
+          top:260px;
+          left:10px;
+          position: absolute;
+          
+          width:1180px;  
+          height:270px;
+          
+          font-style:italic;
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #FFFFFF;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+    }
+
+    
+    
+    .LabelGrupo2
+    {
+          background-color: #37B1DA;
+          top:520px;
+          left:10px;
+          position: absolute;
+          
+          width:1180px;  
+          height:102px;
+          
+          font-style:italic;
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #FFFFFF;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+    }
+    
+     .LabelGrupo3
+    {
+          background-color: #37B1DA;
+          top:630px;
+          left:10px;
+          position: absolute;
+          
+          width:1180px;  
+          height:162px;
+          
+          font-style:italic;
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #FFFFFF;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+    }
+    
+    
+     .LabelGrupo4
+    {
+          background-color: #37B1DA;
+          top:590px;
+          left:10px;
+          position: absolute;
+          
+          width:1180px;  
+          height:102px;
+          
+          font-style:italic;
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #FFFFFF;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+    }
+
+     .LabelGrupo5
+    {
+          /*background-color: #37B1DA;*/
+          background-color: #428BCA;
+          top:700px;
+          left:10px;
+          position: absolute;
+          
+          width:1180px;  
+          height:110px;
+          
+          font-style:italic;
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #FFFFFF;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+    }
+
+
+	 .LabelGrupo6	
+    {
+          background-color: #37B1DA;
+          top:630px;
+          left:10px;
+          position: absolute;
+          
+          width:1180px;  
+          height:110px;
+          
+          font-style:italic;
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #FFFFFF;
+          -webkit-bo rder-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+    }
+
+    
+    
+    .CampoLabel1
+    {
+         background-color: #428BCA;
+         left:15px;
+         position: absolute;
+         
+         width:210px;  
+         height:30px;
+		 text-align:center;
+          
+         font-style:italic;
+         font-size:1.0em;
+         color:#ffffff;
+         font-f amily:'Helvetica','Verdana','Monaco',sans-serif;
+         border:3px solid #FFFFFF;
+         -webkit-border-radius: 25px;
+         -moz-border-radius: 25px;
+         border-radius: 25px;
+    }
+    
+    
+    
+    .CampoLabel2
+    {
+         background-color: #428BCA;
+         left:315px;
+         position: absolute;
+         
+         width:210px;  
+         height:30px;
+		 text-align:center;
+          
+         font-style:italic;
+         font-size:1.0em;
+         color:#ffffff;
+         font-family:'Helvetica','Verdana','Monaco',sans-serif;
+         border:3px solid #FFFFFF;
+         -webkit-border-radius: 25px;
+         -moz-border-radius: 25px;
+         border-radius: 25px;
+    }
+    
+    
+    .CampoLabel3
+    {
+         background-color: #428BCA;
+         display:inline-table;
+         left:615px;
+         position: absolute;
+         
+         width:210px;  
+         height:30px;
+		 text-align:center;
+          
+         font-style:italic;
+         font-size:1.0em;
+         color:#ffffff;
+         font-family:'Helvetica','Verdana','Monaco',sans-serif;
+         border:3px solid #FFFFFF;
+         -webkit-border-radius: 25px;
+         -moz-border-radius: 25px;
+         border-radius: 25px;
+    }
+        
+    .CampoLabel4
+    {
+         background-color: #428BCA;
+         display:inline-table;
+         left:830px;
+         position: absolute;
+         
+         width:210px;  
+         height:30px;
+		 text-align:center;
+          
+         font-style:italic;
+         font-size:1.0em;
+         color:#ffffff;
+         font-family:'Helvetica','Verdana','Monaco',sans-serif;
+         border:3px solid #FFFFFF;
+         -webkit-border-radius: 25px;
+         -moz-border-radius: 25px;
+         border-radius: 25px;
+    }
+
+
+    
+    .CampoText1
+    {
+          text-align:left;
+          top:40px;
+          left:15px;
+          color:#0000FF;
+          width:257px; 
+          /*text-transform:lowercase;*/
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+    
+    
+    .CampoText2
+    {
+          text-align:left;
+          top:40px;
+          left:315px;
+          color:#0000FF;
+          width:257px;  
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+    
+    .CampoText3
+    {
+          text-align:left;
+          top:40px;
+          left:615px;
+          color:#0000FF;
+          width:205px;
+		  height:50px;
+		  
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+
+    .CampoText4
+    {
+          text-align:left;
+          top:40px;
+          left:830px;
+          color:#0000FF;
+          width:335px;
+		  height:50px;
+		  
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+
+
+
+	
+	
+    .CampoText_Combo
+    {
+          text-align:left;
+          top:40px;
+          left:10px;
+          color:#9D2F88;
+          width:1040px;
+		  height:40px;
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+
+    .CampoText_Comentarios
+    {
+          text-align:left;
+          top:40px;
+          left:10px;
+          /*color:#9D2F88;#8DB9DF*/
+          color:#8DB9DF;
+          width:1155px;
+		  height:60px;
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+
+    .CampoText_Especial_Grupo2
+    {
+          text-align:left;
+          top:40px;
+          left:10px;
+          color:#9D2F88;
+          width:730px;
+		  height:60px;
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+
+
+
+    .BotonIngresar_Form
+        { 
+            background:-moz-linear-gradient(#428BCA 0%,#428BCA 100%);
+            background:-ms-linear-gradient(#428BCA 0%,#428BCA 100%); 
+            background:-o-linear-gradient(#428BCA 0%,#428BCA 100%); 
+            background:-webkit-linear-gradient(#428BCA 0%,#428BCA 100%);
+            background:linear-gradient(#428BCA 0%,#428BCA 100%);
+            border-radius:25px;
+            border:4px solid #ffffff;
+            text-align:center;
+            padding:10px;
+            top:820px;
+            left:490px;
+            color:#ffffff;
+            width:235px;
+            font-style:italic;
+            font-weight:bold;
+            font-size:2em;
+            font-family:'Helvetica','Verdana','Monaco',sans-serif;
+
+            position: absolute;
+            visibility:visible;
+            z-index:3;
+         } 
+
+
+         .BotonIngresar_Form:hover
+         {
+            background:-moz-linear-gradient(#fff 0%,#fff 100%);
+            background:-ms-linear-gradient(#fff 0%,#fff 100%);
+            background:-o-linear-gradient(#fff 0%,#fff 100%);
+            background:-webkit-linear-gradient(#fff 0%,#fff 100%);
+            background:linear-gradient(#fff 0%,#fff 100%);
+            color:#9C328A; 
+            background-color:#428BCA;
+            padding:13px;
+            top:820px;
+            left:487px;
+            width:250px; 
+            font-size:25px;
+            box-shadow:0 0 15px #428BCA; 
+            border-radius:25px;
+
+            position: absolute;
+            visibility:visible;
+            z-index:3;
+        }
+
+
+		.Boton_Enviar_Form
+		{
+			font-style:italic;
+            font-weight:bold;
+            font-size:0.8em;
+			size:70px;
+			left:615px;
+            color:#D9AED2;
+            font-family:'Helvetica','Verdana','Monaco',sans-serif;
+
+        	color:white;
+	        background:#428BCA;
+    	    border:0px;
+        	width:180px;
+	        height:40px;
+		}
+		
+		
+		
+/*****************************************************************************/
+/*****************************************************************************/
+/*********CLASES PARA EL APLICATIVO DE ETV************************************/
+/*****************************************************************************/
+/*****************************************************************************/
+
+    .LabelSubTitulo_Resultados
+    {
+          background-color: #428BCA;
+          text-align:center;
+          /*padding:10px;*/
+          top:70px;
+          left:10px;
+          
+          width:180px;  
+          /*height:2px;*/
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          font-weight:bold;
+          
+          position: absolute;
+          visibility:visible;
+          z-index:3;
+          
+          display:inline-table;
+          border:4px solid #FFFFFF;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          border-radius: 10px;
+          /*opacity: 0.9;
+          filter: alpha(opacity=60); /* For IE8 and earlier */
+    }
+
+    .LabelSubTitulo_Indicadores
+    {
+          background-color: #428BCA;
+          text-align:center;
+          /*padding:10px;*/
+          top:70px;
+          left:605px;
+          
+          width:180px;  
+          /*height:2px;*/
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          font-weight:bold;
+          
+          position: absolute;
+          visibility:visible;
+          z-index:3;
+          
+          display:inline-table;
+          border:4px solid #FFFFFF;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          border-radius: 10px;
+          /*opacity: 0.9;
+          filter: alpha(opacity=60); /* For IE8 and earlier */
+    }
+
+    .LabelSubTitulo_Actividades
+    {
+          background-color: #428BCA;
+          text-align:center;
+          /*padding:10px;*/
+          top:120px;
+          left:10px;
+          
+          width:180px;  
+          /*height:2px;*/
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          font-weight:bold;
+          
+          position: absolute;
+          visibility:visible;
+          z-index:3;
+          
+          display:inline-table;
+          border:4px solid #FFFFFF;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          border-radius: 10px;
+          /*opacity: 0.9;
+          filter: alpha(opacity=60); /* For IE8 and earlier */
+    }
+
+
+    .LabelGrupo_RadioButton1
+    {
+          background-color: #428BCA;
+          text-align:center;
+          top:70px;
+          left:195px;
+          position: absolute;
+          
+          width:280px;  
+          height:30px;
+          
+          font-style:italic;
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #ffffff;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          border-radius: 10px;
+    }
+
+    .LabelGrupo_RadioButton2
+    {
+          background-color: #428BCA;
+          text-align:center;
+          top:70px;
+          left:790px;
+          position: absolute;
+          
+          width:269px;  
+          height:30px;
+          
+          font-style:italic;
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #ffffff;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          border-radius: 10px;
+    }
+	
+	
+    .LabelGrupo_RadioButton3
+    {
+          background-color: #428BCA;
+          text-align:center;
+          top:170px;
+          left:10px;
+          position: absolute;
+          
+          width:440px;  
+          height:55px;
+          
+          font-style:italic;
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #ffffff;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          border-radius: 10px;
+    }
+
+
+
+    .LabelGrupo_RadioButton3_AP-R2
+    {
+          background-color: #428BCA;
+          text-align:center;
+          top:170px;
+          left:10px;
+          position: absolute;
+          
+          width:340px;  
+          height:30px;
+          
+          font-style:italic;
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #ffffff;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          border-radius: 10px;
+    }
+
+	
+
+
+    .Table_Grupo_RadioButton
+    {
+          background-color: #428BCA;
+          text-align:center;
+          top:135px;
+          left:470px;
+          position: absolute;
+          
+          width:269px;  
+          height:60px;
+          
+          font-style:italic;
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #ffffff;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          border-radius: 10px;
+    }
+
+
+    .LabelGrupoTabs
+    {
+          background-color: #BCBCBC;
+          text-align:center;
+          top:80px;
+          left:470px;
+          position: absolute;
+          
+          width:269px;  
+          height:60px;
+          
+          font-style:italic;
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #ffffff;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          border-radius: 10px;
+    }
+
+    .LabelGrupoTabs2
+    {
+          background-color: #BCBCBC;
+          text-align:center;
+          top:435px;
+          left:470px;
+          position: absolute;
+          
+          width:269px;  
+          height:60px;
+          
+          font-style:italic;
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #ffffff;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          border-radius: 10px;
+    }
+
+
+	.Grupo_Labels_Formulario
+    {
+          background-color: #37B1DA;
+          top:280px;
+          left:10px;
+          position: absolute;
+          
+          width:1180px;  
+          height:102px;
+          
+          font-style:italic;
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #FFFFFF;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+    }
+
+
+
+
+	.LabelGrupo1_AP-R1-I1-A1
+    {
+          /*background-color: #37B1DA;#428BCA*/
+          background-color: #428BCA;
+          top:260px;
+          left:10px;
+          position: absolute;
+          
+          width:1180px;  
+          height:410px;
+          
+          font-style:italic;
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #FFFFFF;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+    }
+
+
+	.LabelGrupo1_AP-R1-I1-A2
+    {
+          background-color: #37B1DA;
+          top:280px;
+          left:10px;
+          position: absolute;
+          
+          width:1180px;  
+          height:260px;
+          
+          font-style:italic;
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #FFFFFF;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+    }
+
+
+    
+	.LabelGrupo1_Fechas
+    {
+          background-color: #37B1DA;
+          top:80px;
+          left:10px;
+          position: absolute;
+          
+          width:1180px;  
+          height:100px;
+          
+          font-style:italic;
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #FFFFFF;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+    }
+	
+   
+    
+    .LabelGrupo2_TipoReporte
+    {
+          background-color: #37B1DA;
+          top:200px;
+          left:10px;
+          position: absolute;
+          
+          width:1180px;  
+          height:100px;
+          
+          font-style:italic;
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #FFFFFF;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+    }
+	
+	
+	
+	.LabelGrupo3_Municipio
+    {
+          background-color: #37B1DA;
+          top:320px;
+          left:10px;
+          position: absolute;
+          
+          width:1180px;  
+          height:100px;
+          
+          font-style:italic;
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #FFFFFF;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+    }
+	
+	
+	    
+     .LabelGrupo4_Fechas
+    {
+          background-color: #37B1DA;
+          top:440px;
+          left:10px;
+          position: absolute;
+          
+          width:1180px;  
+          height:110px;
+          
+          font-style:italic;
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #FFFFFF;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+    }
+
+
+	
+	
+	
+	
+		
+    .CampoLabel1_i1
+    {
+         background-color: #428BCA;
+         left:15px;
+         position: absolute;
+		 top:15px;
+         
+         width:210px;  
+         height:30px;
+		 text-align:center;
+          
+         font-style:italic;
+         font-size:1.0em;
+         color:#ffffff;
+         font-f amily:'Helvetica','Verdana','Monaco',sans-serif;
+         border:3px solid #FFFFFF;
+         -webkit-border-radius: 25px;
+         -moz-border-radius: 25px;
+         border-radius: 25px;
+    }
+    
+    
+    
+    .CampoLabel2_i1
+    {
+         background-color: #428BCA;
+         left:315px;
+         position: absolute;
+		 top:15px;
+		 
+         
+         width:210px;  
+         height:30px;
+		 text-align:center;
+          
+         font-style:italic;
+         font-size:1.0em;
+         color:#ffffff;
+         font-family:'Helvetica','Verdana','Monaco',sans-serif;
+         border:3px solid #FFFFFF;
+         -webkit-border-radius: 25px;
+         -moz-border-radius: 25px;
+         border-radius: 25px;
+    }
+    
+    
+    .CampoLabel3_i1
+    {
+         background-color: #428BCA;
+         display:inline-table;
+         left:615px;
+         position: absolute;
+		 top:15px;
+		 
+         
+         width:210px;  
+         height:30px;
+		 text-align:center;
+          
+         font-style:italic;
+         font-size:1.0em;
+         color:#ffffff;
+         font-family:'Helvetica','Verdana','Monaco',sans-serif;
+         border:3px solid #FFFFFF;
+         -webkit-border-radius: 25px;
+         -moz-border-radius: 25px;
+         border-radius: 25px;
+    }
+        
+    .CampoLabel4_i1
+    {
+         background-color: #428BCA;
+         display:inline-table;
+         left:830px;
+         position: absolute;
+         
+         width:330px;  
+         height:40px;
+		 text-align:center;
+          
+         font-style:italic;
+         font-size:1.0em;
+         color:#ffffff;
+         font-family:'Helvetica','Verdana','Monaco',sans-serif;
+         border:3px solid #FFFFFF;
+         -webkit-border-radius: 25px;
+         -moz-border-radius: 25px;
+         border-radius: 25px;
+    }
+
+
+
+/***CLASES PARA LOS CAMPOTEXT DE LOS INDICADORES Y MEDIOS DE VERIFICACION***/
+    .CampoText1_i1/***INDICADOR***/
+    {
+          text-align:left;
+          top:70px;
+          left:15px;
+          color:#0000FF;
+          width:257px; 
+          /*text-transform:lowercase;*/
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+    
+    
+    .CampoText2_i1/***MEDIO VERIFICACION***/
+    {
+          text-align:left;
+          top:70px;
+          left:315px;
+          color:#0000FF;
+          width:257px;  
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+    
+
+    .CampoText1_i2/***INDICADOR***/
+    {
+          text-align:left;
+          top:130px;
+          left:15px;
+          color:#0000FF;
+          width:257px; 
+          /*text-transform:lowercase;*/
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+    
+    
+    .CampoText2_i2/***MEDIO VERIFICACION***/
+    {
+          text-align:left;
+          top:130px;
+          left:315px;
+          color:#0000FF;
+          width:257px;  
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+
+	
+	
+    .CampoText1_i3/***INDICADOR***/
+    {
+          text-align:left;
+          top:190px;
+          left:15px;
+          color:#0000FF;
+          width:257px; 
+          /*text-transform:lowercase;*/
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+    
+    
+    .CampoText2_i3/***MEDIO VERIFICACION***/
+    {
+          text-align:left;
+          top:190px;
+          left:315px;
+          color:#0000FF;
+          width:257px;  
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+
+
+	
+    .CampoText1_i4/***INDICADOR***/
+    {
+          text-align:left;
+          top:250px;
+          left:15px;
+          color:#0000FF;
+          width:257px; 
+          /*text-transform:lowercase;*/
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+
+
+	
+    .CampoText1_i5/***INDICADOR***/
+    {
+          text-align:left;
+          top:310px;
+          left:15px;
+          color:#0000FF;
+          width:257px; 
+          /*text-transform:lowercase;*/
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+	
+    
+    
+    .CampoText2_i4/***MEDIO VERIFICACION***/
+    {
+          text-align:left;
+          top:250px;
+          left:315px;
+          color:#0000FF;
+          width:257px;  
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+
+	
+    .CampoText2_i5/***MEDIO VERIFICACION***/
+    {
+          text-align:left;
+          top:310px;
+          left:315px;
+          color:#0000FF;
+          width:257px;  
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+	
+
+
+
+/***CLASES PARA LOS CAMPOTEXT DE LOS RADIOBUTTONS DE CONFIRMA***/
+    .CampoText3_radio1
+    {
+          text-align:left;
+          top:70px;
+          left:615px;
+          color:#0000FF;
+          width:205px;
+		  height:50px;
+		  
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+
+    .CampoText3_radio2
+    {
+          text-align:left;
+          top:130px;
+          left:615px;
+          color:#0000FF;
+          width:205px;
+		  height:50px;
+		  
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+	
+    .CampoText3_radio3
+    {
+          text-align:left;
+          top:190px;
+          left:615px;
+          color:#0000FF;
+          width:205px;
+		  height:50px;
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+
+	
+    .CampoText3_radio4
+    {
+          text-align:left;
+          top:250px;
+          left:615px;
+          color:#0000FF;
+          width:205px;
+		  height:50px;
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+
+	
+    .CampoText3_radio5
+    {
+          text-align:left;
+          top:310px;
+          left:615px;
+          color:#0000FF;
+          width:205px;
+		  height:50px;
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+	
+	
+/**********************************************************************/
+
+    .Sube_Archivo1
+    {
+          text-align:left;
+          top:70px;
+          left:830px;
+          color:#0000FF;
+          width:335px;
+		  height:50px;
+		  
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+
+    .Sube_Archivo2
+    {
+          text-align:left;
+          top:130px;
+          left:830px;
+          color:#0000FF;
+          width:335px;
+		  height:50px;
+		  
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+
+    .Sube_Archivo3
+    {
+          text-align:left;
+          top:190px;
+          left:830px;
+          color:#0000FF;
+          width:335px;
+		  height:50px;
+		  
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+	
+    .Sube_Archivo4
+    {
+          text-align:left;
+          top:250px;
+          left:830px;
+          color:#0000FF;
+          width:335px;
+		  height:50px;
+		  
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+
+    .Sube_Archivo5
+    {
+          text-align:left;
+          top:310px;
+          left:830px;
+          color:#0000FF;
+          width:335px;
+		  height:50px;
+		  
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+    }
+
+/*****************************************************************************/
+/*****************************************************************************/
+/*****************************************************************************/
+		
+
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/**															***/
+/**SECCION CLASES PARA LAS CAJAS DE LA AGENDA******************/
+/**															***/
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/ 
+     .LabelGrupoHorarioAgenda
+    {
+          background-color: #B1EDD4;
+          top:935px;
+          left:60px;
+          position: absolute;
+          
+          width:1080px;  
+          height:102px;
+          
+          font-style:italic;
+          font-size:1.0em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #FFFFFF;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+    }
+	
+	
+	.CampoText_ComboAgenda
+	{
+	
+	
+	
+	}
+
+	.LabelTituloFormularioAgenda1
+	{
+          background-color: #B1EDD4;
+          text-align:center;
+          padding:1px;
+          top:5px;
+          left:380px;
+
+          width:450px;  
+          height:2px;
+          font-size:0.85em;
+          color:#9F348D;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          font-weight:bold;
+          
+          position: absolute;
+          visibility:visible;
+          z-index:3;
+          
+          display:inline-table;
+          border:4px solid #FFFFFF;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+          /*opacity: 0.9;
+          filter: alpha(opacity=60); /* For IE8 and earlier */
+	}
+
+	
+	.LabelTituloFormularioAgenda2
+	{
+          background-color: #B1EDD4;
+          text-align:center;
+          padding:1px;
+          top:530px;
+          left:380px;
+          
+          width:450px;  
+          height:2px;
+          font-size:0.85em;
+          color:#9F348D;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          font-weight:bold;
+          
+          position: absolute;
+          visibility:visible;
+          z-index:3;
+          
+          display:inline-table;
+          border:4px solid #FFFFFF;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+          /*opacity: 0.9;
+          filter: alpha(opacity=60); /* For IE8 and earlier */
+	}
+	
+	
+	.LabelGrupo1Agenda
+	{
+          background-color: #B1EDD4;
+          top:570px;
+          left:60px;
+          position: absolute;
+          
+          width:1080px;  
+          height:70px;
+          
+          font-style:italic;
+          font-size:0.8em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #FFFFFF;
+          -webkit-bo rder-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+	}
+
+	.LabelGrupo2Agenda
+	{
+          background-color: #B1EDD4;
+          top:659px;
+          left:60px;
+          position: absolute;
+          
+          width:1080px;  
+          height:70px;
+          
+          font-style:italic;
+          font-size:0.8em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #FFFFFF;
+          -webkit-bo rder-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+	}
+
+	.LabelGrupo3Agenda
+	{
+          background-color: #B1EDD4;
+          top:748px;
+          left:60px;
+          position: absolute;
+          
+          width:1080px;  
+          height:70px;
+          
+          font-style:italic;
+          font-size:0.8em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #FFFFFF;
+          -webkit-bo rder-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+	}
+	
+	
+	.CampoLabel1Agenda
+	{
+         background-color: #458B74;
+         left:10px;
+         position: absolute;
+         
+         width:250px;  
+         height:25px;
+		 text-align:center;
+          
+         font-style:italic;
+         font-size:1.0em;
+         color:#ffffff;
+         font-f amily:'Helvetica','Verdana','Monaco',sans-serif;
+         border:3px solid #FFFFFF;
+         -webkit-border-radius: 25px;
+         -moz-border-radius: 25px;
+         border-radius: 25px;
+	}
+
+	 .CampoLabel2Agenda
+	{
+         background-color: #458B74;
+         left:400px;
+         position: absolute;
+         
+         width:250px;  
+         height:25px;
+		 text-align:center;
+          
+         font-style:italic;
+         font-size:1.0em;
+         color:#ffffff;
+         font-family:'Helvetica','Verdana','Monaco',sans-serif;
+         border:3px solid #FFFFFF;
+         -webkit-border-radius: 25px;
+         -moz-border-radius: 25px;
+         border-radius: 25px;
+	}
+
+	.CampoLabel3Agenda
+	{
+         background-color: #458B74;
+         left:800px;
+         position: absolute;
+         
+         width:250px;  
+         height:25px;
+		 text-align:center;
+          
+         font-style:italic;
+         font-size:1.0em;
+         color:#ffffff;
+         font-family:'Helvetica','Verdana','Monaco',sans-serif;
+         border:3px solid #FFFFFF;
+         -webkit-border-radius: 25px;
+         -moz-border-radius: 25px;
+         border-radius: 25px;
+	
+	}
+
+	.CampoText1Agenda
+	{
+          text-align:left;
+          top:28px;
+          left:10px;
+          color:#9D2F88;
+          width:255px;
+		  height:33px;
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+	}
+
+	.CampoText2Agenda
+	{
+          text-align:left;
+          top:28px;
+          left:400px;
+          color:#9D2F88;
+          width:255px;
+		  height:33px;
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+	
+	}
+
+	.CampoText3Agenda
+	{
+          text-align:left;
+          top:28px;
+          left:800px;
+          color:#9D2F88;
+          width:255px;
+		  height:33px;
+		  
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+	}
+
+
+
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/**															***/
+/**SECCION CLASES PARA LAS CAJAS DE LA AGENDA - MAMOGRAFIAS****/
+/**															***/
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/ 
+
+	.LabelTituloFormularioAgenda_Mamografias
+	{
+          background-color: #B1EDD4;
+          text-align:center;
+          padding:1px;
+          top:5px;
+          left:380px;
+
+          width:450px;  
+          height:2px;
+          font-size:0.85em;
+          color:#9F348D;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          font-weight:bold;
+          
+          position: absolute;
+          visibility:visible;
+          z-index:3;
+          
+          display:inline-table;
+          border:4px solid #FFFFFF;
+          -webkit-border-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+          /*opacity: 0.9;
+          filter: alpha(opacity=60); /* For IE8 and earlier */
+	}
+	
+	
+	
+	.Estilo_Div_Tabla_Mamografias
+	{
+            /*background-color: #A8A9AD;*/
+            color:#9D2F88;
+            font-size:1.0em;
+            font-family:'Helvetica','Verdana','Monaco',sans-serif;
+			
+            width: 1200px;
+            height: 800px;
+			position:absolute;
+			top:50px;
+	        left:10px;
+            overflow:scroll;
+            overflow-x:auto;
+            overflow-y:auto;
+            vertical-align:super;
+            text-align:center;
+	}
+	
+
+	.LabelGrupo1Agenda_Mamografias
+	{
+          background-color: #B1EDD4;
+          top:505px;
+          left:8px;
+          position: absolute;
+          
+          width:1180px;  
+          height:70px;
+          
+          font-style:italic;
+          font-size:0.8em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #FFFFFF;
+          -webkit-bo rder-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+	}
+
+	.LabelGrupo2Agenda_Mamografias
+	{
+          background-color: #B1EDD4;
+          top:579px;
+          left:8px;
+          position: absolute;
+          
+          width:1180px;  
+          height:70px;
+          
+          font-style:italic;
+          font-size:0.8em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #FFFFFF;
+          -webkit-bo rder-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+	}
+
+	.LabelGrupo3Agenda_Mamografias
+	{
+          background-color: #B1EDD4;
+          top:653px;
+          left:8px;
+          position: absolute;
+          
+          width:1180px;  
+          height:70px;
+          
+          font-style:italic;
+          font-size:0.8em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #FFFFFF;
+          -webkit-bo rder-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+	}
+
+	.LabelGrupo4Agenda_Mamografias
+	{
+          background-color: #B1EDD4;
+          top:727px;
+          left:8px;
+          position: absolute;
+          
+          width:1180px;  
+          height:92px;
+          
+          font-style:italic;
+          font-size:0.8em;
+          color:#ffffff;
+          font-family:'Helvetica','Verdana','Monaco',sans-serif;
+          border:3px solid #FFFFFF;
+          -webkit-bo rder-radius: 25px;
+          -moz-border-radius: 25px;
+          border-radius: 25px;
+	}
+
+
+	.CampoLabel_FechaDia_Cita_Agenda_Mamografias
+	{
+         background-color: #ffffff;
+         left:20px;
+		 top:-1px;
+         position: absolute;
+         
+         width:200px;  
+         height:30px;
+		 text-align:center;
+          
+         font-style:italic;
+         font-size:1.1em;
+         color:#9C328A;
+         font-f amily:'Helvetica','Verdana','Monaco',sans-serif;
+         border:3px solid #9C328A;
+         -webkit-border-radius: 5px;
+         -moz-border-radius: 5px;
+         border-radius: 5px;
+	}
+
+
+	.CampoLabel1Agenda_Mamografias_FechaDia_Cita
+	{
+         background-color: #B1EDD4;
+         left:35px;
+         position: absolute;
+         
+         width:200px;  
+         height:25px;
+		 text-align:center;
+          
+		  
+         font-style:italic;
+		 font-weight:bold;
+         font-size:1.1em;
+         color:#9C328A;
+         font-f amily:'Helvetica','Verdana','Monaco',sans-serif;
+         border:3px solid #9C328A;
+         -webkit-border-radius: 25px;
+         -moz-border-radius: 25px;
+         border-radius: 25px;
+	}
+
+
+
+	
+	
+	.CampoLabel1Agenda_Mamografias
+	{
+         background-color: #458B74;
+         left:10px;
+         position: absolute;
+         
+         width:200px;  
+         height:25px;
+		 text-align:center;
+          
+         font-style:italic;
+         font-size:1.0em;
+         color:#ffffff;
+         font-f amily:'Helvetica','Verdana','Monaco',sans-serif;
+         border:3px solid #FFFFFF;
+         -webkit-border-radius: 25px;
+         -moz-border-radius: 25px;
+         border-radius: 25px;
+	}
+
+	 .CampoLabel2Agenda_Mamografias
+	{
+         background-color: #458B74;
+         left:310px;
+         position: absolute;
+         
+         width:200px;  
+         height:25px;
+		 text-align:center;
+          
+         font-style:italic;
+         font-size:1.0em;
+         color:#ffffff;
+         font-family:'Helvetica','Verdana','Monaco',sans-serif;
+         border:3px solid #FFFFFF;
+         -webkit-border-radius: 25px;
+         -moz-border-radius: 25px;
+         border-radius: 25px;
+	}
+
+	.CampoLabel3Agenda_Mamografias
+	{
+         background-color: #458B74;
+         left:610px;
+         position: absolute;
+         
+         width:200px;  
+         height:25px;
+		 text-align:center;
+          
+         font-style:italic;
+         font-size:1.0em;
+         color:#ffffff;
+         font-family:'Helvetica','Verdana','Monaco',sans-serif;
+         border:3px solid #FFFFFF;
+         -webkit-border-radius: 25px;
+         -moz-border-radius: 25px;
+         border-radius: 25px;
+	
+	}
+
+
+	.CampoLabel4Agenda_Mamografias
+	{
+         background-color: #458B74;
+         left:910px;
+         position: absolute;
+         
+         width:200px;  
+         height:25px;
+		 text-align:center;
+          
+         font-style:italic;
+         font-size:1.0em;
+         color:#ffffff;
+         font-family:'Helvetica','Verdana','Monaco',sans-serif;
+         border:3px solid #FFFFFF;
+         -webkit-border-radius: 25px;
+         -moz-border-radius: 25px;
+         border-radius: 25px;
+	
+	}
+
+
+
+
+	.CampoText1Agenda_Mamografias
+	{
+          text-align:left;
+          top:28px;
+          left:10px;
+          color:#9D2F88;
+          width:255px;
+		  height:33px;
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+	}
+
+	.CampoText2Agenda_Mamografias
+	{
+          text-align:left;
+          top:28px;
+          left:310px;
+          color:#9D2F88;
+          width:255px;
+		  height:33px;
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+	
+	}
+
+	.CampoText3Agenda_Mamografias
+	{
+          text-align:left;
+          top:28px;
+          left:610px;
+          color:#9D2F88;
+          width:255px;
+		  height:33px;
+		  
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+	}
+
+
+	.CampoText4Agenda_Mamografias
+	{
+          text-align:left;
+          top:28px;
+          left:910px;
+          color:#9D2F88;
+          width:255px;
+		  height:33px;
+		  
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+	}
+
+
+	.CampoText_ComboAgenda
+	{
+          text-align:left;
+          top:28px;
+          left:610px;
+          color:#9D2F88;
+          width:552px;
+		  height:55px;
+            
+          position: absolute;
+          background-color: #ffffff;
+          border:3px solid #ffffff;
+	}
+
+
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/**															***/
+/**SECCION CLASES PARA LAS CAJAS DE MENSAJES DE ERROR**********/
+/**															***/
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/ 
+
+/*******************************************************************************/ 
+/*****#menu, #contenido ACTIVAN LA CAJA DE: mensaje_respuesta($error,'error')***/ /*******************************************************************************/ 
+	#menu, #contenido
+	 {
+		float:left;
+		display:inline;
+	}
+	
+	#menu
+	{
+		width:200px;
+		margin-bottom:20px;
+		border-right:1px solid #E7E7E7;
+	}
+	
+	#contenido
+	{
+		width:78%;
+		padding:20px 25px;
+	}
+
+/* normal and erro message-box */
+.normal-message, .error-message, .confirm-message, .confirm-alerta
+{
+	position: relative;
+	margin: 10px auto;
+	margin-left: -300px;
+	margin-top: 380px;
+	width: 500px;
+	left: 50%;
+	right: 50%;
+	border-width: 2px;
+	border-style: solid;
+	padding: 5px;
+}
+.normal-message {
+	border: 1px solid #ffffff;
+	color: #ffffff; 
+	background-color: #428BCA;
+}
+.error-message {
+	border: 1px solid #ffffff;
+	color: #ffffff; 
+	background-color: #428BCA;
+}
+
+.confirm-message {
+	border: 1px solid #3F70AC;
+	color: #000;
+	background-color: #428BCA;
+}
+
+.confirm-alerta {
+	border: 1px solid #3F70AC;
+	color: #000;
+	background-color: #428BCA;
+}
+
+
+.contact_input {margin-bottom:0px; height:38px;}
+.contact_input input {
+	background: #428BCA;
+	border-radius: 5px 5px 5px 5px;
+	border: none;
+	border: 1px solid #B2C6D3;
+	border-left: 1px solid #B2C6D3;
+	line-height: 1.29em;
+	padding: 6px 14px;
+	position: relative;
+	width: 250px;
+}
+.contact_input2 input, select {
+	background: #f7f6f1;
+	border-radius: 5px 5px 5px 5px;
+	border: none;
+	border: 1px solid #B2C6D3;
+	border-left: 1px solid #B2C6D3;
+	line-height: 1.29em;
+	padding: 6px 14px;
+	position: relative;
+	
+}

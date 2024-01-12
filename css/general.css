@@ -1,0 +1,354 @@
+@charset "utf-8";
+/*  CSS Document  */
+/* the following for regular <a> elements */
+a:link {text-decoration: none; font-weight : bold; color : #4171b5;}
+a:visited {text-decoration: none; font-weight : bold; color : #4171b5;}
+a:hover {text-decoration: none; color: red; font-weight: bold}
+a:active {text-decoration: none; font-weight : bold;  color : #f00;}
+
+.font_14{
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+
+}
+.font_10{
+	font-size: 10px;
+	color: #000000;
+}
+.font_12{
+	font-size: 12px;
+	color: #000000;
+}
+.font_8{
+	font-size: 8px;
+	color: #000000;
+}
+body
+{
+	color: Black;
+	font-size: 13px;
+	font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+	background-color: white;
+   z-index: 0;
+   scrollbar-base-color: #59736B;
+   scrollbar-face-color: #59736B;
+   scrollbar-track-color: #B9B9B9;
+   scrollbar-arrow-color: #FFFFFF;
+   scrollbar-highlight-color: #59736B;
+   scrollbar-3dlight-color: black;
+   scrollbar-shadow-color: #000000;
+   scrollbar-darkshadow-color: #818181;
+}
+
+
+
+.titulo
+{
+ margin: 2.5em 0em 0; 
+ border-bottom: 3px solid black;
+ font-size: 15px ;
+ font-family: "tahoma";
+ font-weight: bold;
+}
+
+table
+{
+	border-right: 1px  solid Black; 
+	border-top: 1px solid Black; 
+	border-left: 1px solid Black;
+	border-bottom: 1px solid Black; 
+	background-color: #ffffff;
+	font-size: 12px;
+	font-family: "Tahoma, Sans-serif";
+	color: Black;
+	
+	x-cell-content-align: Center; 
+	border-spacing: 0px
+	"cellspacing=0 x-use-null-cells callspacing=0
+	hspace=15" cellspacing cellpadding	
+}
+
+.table1
+{
+        border-right: 1px  solid white;
+        border-top: 1px solid white;
+        border-left: 1px solid white;
+        border-bottom: 1px solid #FFFFFF;
+        background-color: #FF6EFF;
+        font-size: 12px;
+        font-family: "Tahoma, Sans-serif";
+        color: #000000;
+
+        x-cell-content-align: Center;
+        border-spacing: 0px
+        "cellspacing=0 x-use-null-cells callspacing=0
+        hspace=15" cellspacing cellpadding
+}
+
+
+select
+{
+    border:solid 1px #77C; 
+	background:#F0F8FF; 
+	padding-left:0.2em;
+}
+
+.cabeza_tabla
+{
+	/*background:#F19C1B;*/
+	font-size: 14px;
+	FONT-WEIGHT: bold;
+	COLOR: #000033;
+	/*background-color: #FFF4D8;*/
+	background-color: #BCD;
+	background-position: 63;
+	line-height: 40px;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+
+
+.tr0
+{
+       border-right: 0px none;
+       border-top: 0px none;
+       border-left: 0px none;
+       border-bottom: 0px none;
+       background-color: #e6e6e6;
+       border-color: Black;
+}
+						
+
+tr
+{
+ 	border-right: 0px none; 
+	border-top: 0px none; 
+	border-left: 0px none;
+	border-bottom: 0px none; 
+	background-color: #BCD;
+	border-color: Black;
+/*	background-color: #E8F0F0;*/
+}
+
+.tr1
+{
+ 	border-right: 0px none; 
+	border-top: 0px none; 
+	border-left: 0px none;
+	border-bottom: 0px none; 
+	background-color: #EAEAEA;
+	border-color: Black;
+}
+
+.tr2
+{
+	border-right: 0px none;
+	border-top: 0px none;
+	border-left: 0px none;
+	border-bottom: 0px none;
+	background-color: #FFFFFF;
+	border-color: Black;
+}
+
+.tr3
+{
+        border-right: 0px none;
+        border-top: 0px none;
+        border-left: 0px none;
+        border-bottom: 0px none;
+        background-color: "darkgray";
+        border-color: Black;
+}
+.tr4
+{
+	border-right: 0px none;
+	border-top: 0px none;
+	border-left: 0px none;
+	border-bottom: 0px none;
+	background-color: #339999;
+	border-color: Black;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.tr5
+{
+	border-right: 0px none;
+	border-top: 0px none;
+	border-left: 0px none;
+	border-bottom: 0px none;
+	background-color: #993333;
+	border-color: Black;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.tr6
+{
+	border-right: 0px none;
+	border-top: 0px none;
+	border-left: 0px none;
+	border-bottom: 0px none;
+	background-color: #004080;
+	border-color: Black;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.tr7
+{
+	border-right: 0px none;
+	border-top: 0px none;
+	border-left: 0px none;
+	border-bottom: 0px none;
+	background-color: #009900;
+	border-color: Black;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.alerta1
+{
+	border-right: 0px none;
+	border-top: 0px none;
+	border-left: 0px none;
+	border-bottom: 0px none;
+	background-color: #009900;
+	border-color: Black;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.alerta2
+{
+	border-right: 0px none;
+	border-top: 0px none;
+	border-left: 0px none;
+	border-bottom: 0px none;
+	background-color: #FFCC33;
+	border-color: Black;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.alerta3
+{
+	border-right: 0px none;
+	border-top: 0px none;
+	border-left: 0px none;
+	border-bottom: 0px none;
+	background-color: #FF6633;
+	border-color: Black;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.editshade_lb
+{
+	font-size: 11px;
+	
+	COLOR: black;
+	BACKGROUND-COLOR: #FFF4D8;
+	vertical-align: middle;
+	border-left:1px solid #FFE4A2;
+	border-bottom:1px solid #FFE4A2;
+}
+.editshade_b
+{
+	font-size: 11px;
+	
+	COLOR: black;
+	BACKGROUND-COLOR: #FFF4D8;
+	vertical-align: middle;
+	border-bottom:1px solid #FFE4A2;
+}
+input
+{
+	VERTICAL-ALIGN: middle;
+	COLOR: #000000;
+	font-family: Verdana, sans-serif;
+	font-size: 11px;
+	background:#F0F8FF;
+} 
+
+
+
+
+input#boton 
+{
+BORDER-RIGHT: #000066 2px solid; 
+BORDER-TOP: #000066 2px solid; 
+FONT: bold 11px Verdana, sans-serif; 
+VERTICAL-ALIGN: middle; 
+BORDER-LEFT: #000066 2px solid; 
+COLOR: #000066; 
+BORDER-BOTTOM: #000066 2px solid; 
+TEXT-ALIGN: center
+}
+
+/* normal and erro message-box */
+.normal-message, .error-message, .confirm-message {
+	position: relative;
+	margin: 10px auto;
+	margin-left: -250px;
+	width: 500px;
+	left: 50%;
+	right: 50%;
+	border-width: 1px;
+	border-style: solid;
+	padding: 5px;
+}
+.normal-message {
+	border: 1px solid #FF8001;
+	color: #000; 
+	background-color: #FDC77E;
+}
+.error-message {
+	border: 1px solid #3F70AC;
+	color: #000; 
+	background-color: #FDC273;
+}
+
+.confirm-message {
+	border: 1px solid #3F70AC;
+	color: #000;
+	background-color: #FDC273;
+}
+
+.division_linea {
+	border: 1px solid #3F70AC;
+	color: #FFFFFF;
+	background-color: #00366C;
+	position: relative;
+	margin: 10px auto;
+	margin-left: -250px;
+	width: 500px;
+	left: 50%;
+	right: 50%;
+	border-width: 1px;
+	border-style: solid;
+	padding: 5px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+
+#message {margin: 0 auto; text-align: center;}
+#message select {margin: 10px 0; width: 220px;}
+#message textarea {margin: 10px 0;}
+#message td {padding: 4px;}
+
+h6	{ 
+	page-break-after: always;
+	}
+/*Contador de caractreres campo*/	
+.minitext {
+  font: normal 10 Arial, sans-serif;
+  color: Black;
+}
+
+.disable {
+  background-color: #000033;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+}
+/*Fin contador*/
+	

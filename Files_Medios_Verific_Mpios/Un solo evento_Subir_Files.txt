@@ -1,0 +1,76 @@
+if(!empty($_POST['ConfirmaI1'])&&($_POST['ConfirmaI1'])=="S")
+{//If CheckBox Confirma1
+
+    $TipoFile = $_FILES['archivo1']['type'];
+    $TamañoFile = $_FILES['archivo1']['size'];
+
+        if($TamañoFile < 2000000)
+        {
+            if(($TipoFile == "text/plain") or ($TipoFile == "application/pdf") or ($TipoFile == "application/octet-stream") or ($TipoFile == "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet") or ($TipoFile == "application/vnd.openxmlformats-officedocument.wordprocessingml.document"))
+            {
+
+                if(is_uploaded_file($_FILES['archivo1']['tmp_name']))
+                {
+                    $Nombre_Archivo1 = $_FILES['archivo1']['name'];
+                    $Path_Documentos_Guardados = "./Files_Medios_Verific_Mpios/$Nombre_Archivo1";
+
+                    if(move_uploaded_file($_FILES['archivo1']['tmp_name'],$Path_Documentos_Guardados)) 
+                    {
+                       ?>
+                             <script type="text/javascript">
+                               alert("El Archivo de i1 se ha enviado con exito...!");   
+                               window.location.href='./index2.php?p=captura_datos_Atencion&carp=2';
+                             </script>
+                      <?PHP
+                    }
+                }
+                else
+                {
+                       ?>
+                             <script type="text/javascript">
+                               alert("Error al enviar el archivo para i1...!");   
+                               window.location.href='./index2.php?p=captura_datos_Atencion&carp=2';
+                             </script>
+                       <?PHP
+
+                       $error[]="Error al enviar el archivo para i1";
+
+                }
+            }
+            else
+            {
+                       ?>
+                              <script type="text/javascript">
+                                alert("Error !!! El Tipo de Archivo no es Permitido");   
+                                window.location.href='./index2.php?p=captura_datos_Atencion&carp=2';
+                              </script>
+                       <?PHP
+
+                       $error[]="El tipo de archivo no es permitido";
+            }
+
+         }
+         else
+         {
+                       ?>
+                              <script type="text/javascript">
+                                alert("Error...El Tamaño del archivo supera el espacio permitido de 2 Megas");   
+                                window.location.href='./index2.php?p=captura_datos_Atencion&carp=2';
+                              </script>
+                       <?PHP
+
+                       $error[]="Error...El Tamaño del archivo supera el espacio permitido de 2 Megas";
+
+         }
+         
+         $Nombre_Documento_Act_i1=$_FILES["archivo1"]["name"]; 
+
+}//Fin If CheckBox Confirma1
+
+ if(empty($_POST['ConfirmaI1']))
+ {
+   //$error[]="El archivo i1 no ha sido cargado aun";
+   $Nombre_Documento_Act_i1="El Indicador i1 No fue Soportado";
+   $error[]="El Indicador i1 No fue Soportado";
+ }         
+
